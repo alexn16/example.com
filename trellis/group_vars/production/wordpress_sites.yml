@@ -19,3 +19,11 @@ wordpress_sites:
       provider: letsencrypt
     cache:
       enabled: false
+      duration: 30s
+    env:
+      disable_wp_cron: true
+      wp_home: http://klarkdeblyn.me
+      wp_siteurl: http://klarkdeblyn.me/wp
+      wp_env: production
+      db_name: klarkdeblyn_prod
+      db_user: klarkdeblyn_dbuser
