@@ -4,7 +4,7 @@ vault_mysql_root_password: stagingpw
 # Documentation: https://roots.io/trellis/docs/security/
 vault_users:
   - name: "{{ admin_user }}"
-    password: klarkdeblyn_password
+    password: kkdeblyn_password
     salt: "generateme"
 
 # Variables to accompany `group_vars/staging/wordpress_sites.yml`
@@ -12,7 +12,7 @@ vault_users:
 vault_wordpress_sites:
   klarkdeblyn.me:
     env:
-      db_password: klarkdeblyn_dbpassword
+      db_password: kkdeblyn_dbpassword
       # Generate your keys here: https://api.wordpress.org/secret-key/1.1/salt/
       auth_key: "cqx]v{q3WtHNLChB:Pn?nm46x@A4%+-Z$#5D:zv%6fOk(@yu{@E.0,JZ}BH&64+!"
       secure_auth_key: "kl]ZF%GJ_Js8knnA1AgH[S&XT.4HUr:D{iW2w)#>sYe8[LpDx(MMI)q.j@rhW0l6"

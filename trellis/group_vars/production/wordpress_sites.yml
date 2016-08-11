@@ -25,5 +25,5 @@ wordpress_sites:
       wp_home: http://klarkdeblyn.me
       wp_siteurl: http://klarkdeblyn.me/wp
       wp_env: production
-      db_name: klarkdeblyn_prod
-      db_user: klarkdeblyn_dbuser
+      db_name: kkdeblyn_prod
+      db_user: kkdeblyn_dbuser
