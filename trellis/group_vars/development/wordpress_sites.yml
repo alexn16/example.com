@@ -3,7 +3,7 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  kkdeblyn.com:
+  klarkdeblyn.me:
     site_hosts:
       - canonical: kkdeblyn.dev
         redirects:
