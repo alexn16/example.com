@@ -1,6 +1,6 @@
 ---
 - name: WordPress Installed?
-  command: wp core is-installed {{ project.multisite.enabled | default(false) | ternary('--network', '') }}
+  command: wp core is-installed
   args:
     chdir: "{{ deploy_helper.new_release_path }}"
   register: wp_installed
@@ -34,4 +34,3 @@
   shell: sudo service php7.0-fpm reload
   args:
     chdir: "{{ deploy_helper.new_release_path }}"
-    warn: false
